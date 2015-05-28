@@ -3,7 +3,7 @@ cluster.name: CRATE_CLUSTER_NAME
 node.name: CRATE_NODE_NAME
 discovery.zen.ping.multicast.enabled: false
 discovery.zen.ping.unicast.hosts:
-    CRATE_UNICAST_HOSTS
+CRATE_UNICAST_HOSTS
 
 # Data Paths
 path:
