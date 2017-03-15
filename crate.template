@@ -1,6 +1,10 @@
 # Crate Configuration
 cluster.name: CRATE_CLUSTER_NAME
 node.name: CRATE_NODE_NAME
+network.publish_host: CRATE_PUBLISH_HOST
+discovery.zen.minimum_master_nodes: CRATE_MIN_MASTER_NODES
+gateway.expected_nodes: CRATE_EXPECTED_NODES
+gateway.recover_after_nodes: CRATE_RECOVER_AFTER_NODES
 discovery.zen.ping.multicast.enabled: false
 discovery.zen.ping.unicast.hosts:
 CRATE_UNICAST_HOSTS

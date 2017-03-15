@@ -3,7 +3,7 @@ FROM java:8-jre
 MAINTAINER ContainerShip Developers <developers@containership.io>
 
 # set crate variables
-ENV CRATE_VERSION 0.49.1
+ENV CRATE_VERSION 0.54.4
 ENV CRATE_CONFIG /crate/config/crate.yml
 
 # install packages
