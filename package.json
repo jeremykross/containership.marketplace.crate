@@ -1,5 +1,5 @@
 {
-  "name": "docker-crate",
+  "name": "@containership/containership.marketplace.crate",
   "private": true,
   "description": "Docker image designed to run a Crate cluster on ContainerShip",
   "main": "crate.js",
